@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+header {
+  background: black;
+  padding: 10px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0px;
+  font-size: 50px;
+  font-family: 'Raleway';
+  opacity: 1;
+}
+
+.bg-header {
+  background: black;
+}
+
+.bg-header .bg-img {
+  width: 100%;
+}
+
+.biography {
+  display: flex;
+  align-items: center;
+  background: black;
+  padding: 30px;
+}
+
+.biography .biography-text {
+  text-align: justify;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.789);
+  width: 35%;
+  padding: 20px;
+  margin-left: 10%;
+}
+
+.biography .biography-img {
+  padding: 20px;
+  margin-left: 10%;
+}
+
+.biography .biography-img img{
+  width: 100%;
+  height: 300px;
+}
+
+.features {
+  background: #1E1A13;
+  padding: 15px;
+}
+
+.features h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 40px;
+  margin: 0;
+  padding: 20px;
+  opacity: 1;
+}
+
+.feature-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  color: white;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon p {
+  font-size: 22px;
+  font-family: 'Raleway';
+  opacity: 1;
+  color: rgba(245, 245, 245, 0.861);
+  opacity: 1;
+  letter-spacing: 0px;
+}
+
+
+.collage {
+  background: black;
+  padding: 30px;
+  border-top: 20px;
+}
+
+.iguana-imgs {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.iguana-imgs img{
+  width: 30%;
+}
+
+footer {
+  background: #1E1A13;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  color: rgba(245, 245, 245, 0.861);
+  font-family: 'Raleway';
+  font-size: 24px;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin: 0;
+}

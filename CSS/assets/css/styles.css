@@ -1,0 +1,82 @@
+
+.body {
+    font-family: "Arial";
+    background-color:white;
+}
+
+header {
+    padding: 3em;
+    height: 6em;
+    font-size: 2em;
+    background-image: url(../img/totti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+    margin: 0;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-shadow: 1px 1px 1px black;
+    color: #ff8e0e;
+}
+
+.subtitle {
+    text-align: left;
+    margin: 0;
+    color:black;
+}
+
+.container {
+    width: 360px;
+    height: auto;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.content {
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.name {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.caracteristicas > p {
+    letter-spacing: 1px;
+    text-indent: 5px;
+    font-weight: bold;
+}
+
+
+
+footer {
+    background: linear-gradient(to right, hsl(36, 100%, 55%), #c50909);
+    text-align: center;
+    padding: 10px;
+    color: black (255, 192, 19);
+    font-size: large;
+}
